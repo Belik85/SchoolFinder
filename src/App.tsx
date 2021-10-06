@@ -63,10 +63,6 @@ function App() {
     }
 
 
-
-
-
-
     const onChangeNewSchoolLatitudeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         const reg = /[^\d\.]/g
         setNewSchoolLatitude(e.currentTarget.value.replace(reg, ''))
