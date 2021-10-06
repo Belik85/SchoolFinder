@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+.App {
+  font-family: 'Roboto',sans-serif;
+  display: flex;
+  align-items: center;
+  /*margin: 5% 7%;*/
+
+}
+.mapview {
+  position: absolute !important;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navigation {
+  border: 5px solid #e89331;
+  width: 225px;
+  height: 624px;
+  border-radius: 7px;
+}
+
+.addObjectPanel {
+  border: 5px solid #d9327a;
+  border-radius: 7px;
+}
+
+.searchObjectPanel {
+  border-radius: 7px;
+  border: 5px solid #b3b1b1;
+}
+.displaySearchObjectsBox {
+  border-radius: 7px;
+  border: 5px solid #353333;
+  margin-bottom: 2px;
+}
+
+.mapArea {
+  border: 1px solid #0051ff;
+}
+
+.map {
+  height: 630px;
+  width: 1150px;
+}
+.TextFieldInput {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
